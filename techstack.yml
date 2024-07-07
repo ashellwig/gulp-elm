@@ -1,0 +1,258 @@
+repo_name: ashellwig/gulp-elm
+report_id: fc638ffc40571b609b87dc5248b51bc8
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T04:24:19+00:00'
+requested_by: bdukes
+provider: github
+branch: master
+detected_tools_count: 19
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashellwig/gulp-elm
+  detection_source: Repo Metadata
+- name: Elm
+  description: A type inferred, functional reactive language that compiles to HTML,
+    CSS, and JavaScript
+  website_url: http://package.elm-lang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/4009/default_2928dddce9b68e183e2cb320173ea0f72f1d612b.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-15 12:19:02.000000000 Z
+- name: RequireJS
+  description: JavaScript file and module loader
+  website_url: http://requirejs.org/
+  version: 2.3.3
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/852/1781835.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-15 12:19:02.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: example/yarn.lock
+  last_updated_by: Brian Dukes
+  last_updated_on: 2017-04-12 21:57:41.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: example/package.json
+  last_updated_by: philopon
+  last_updated_on: 2015-05-16 15:50:56.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-15 12:19:02.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-14 22:07:23.000000000 Z
+- name: Q
+  description: A promise library for JavaScript
+  website_url: https://github.com/kriskowal/q
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-14 22:07:23.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brian Dukes
+  last_updated_on: 2016-05-19 14:25:20.000000000 Z
+- name: gulp-uglifyjs
+  description: Minify multiple files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglifyjs
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18290/default_abd2698eb7ad04d77ba5634333ed1b7c7c46c9a3.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: example/package.json
+  last_updated_by: philopon
+  last_updated_on: 2015-05-16 15:50:56.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 2.2.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brian Dukes
+  last_updated_on: 2016-02-26 14:59:35.000000000 Z
+- name: temp
+  description: Temporary files and directories
+  package_url: https://www.npmjs.com/temp
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-14 22:07:23.000000000 Z
+- name: through2
+  description: A tiny wrapper around Node.js streams.Transform
+  package_url: https://www.npmjs.com/through2
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15948/default_fdb56d0865cbc86d9157d5e33f9313d760ed0e83.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: package.json
+  last_updated_by: philopon
+  last_updated_on: 2014-12-14 22:07:23.000000000 Z
+- name: which
+  description: Like which
+  package_url: https://www.npmjs.com/which
+  version: 1.2.12
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16482/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brian Dukes
+  last_updated_on: 2016-05-19 14:25:20.000000000 Z
+- name: elm-lang/core
+  description: Elm's standard libraries
+  package_url: http://package.elm-lang.org/elm-lang/core
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/elm-package.json
+  detection_source: example/elm-package.json
+  last_updated_by: Abadi Kurniawan
+  last_updated_on: 2016-11-16 06:49:18.000000000 Z
+- name: elm-lang/html
+  description: Fast HTML, rendered with virtual DOM diffing
+  package_url: http://package.elm-lang.org/elm-lang/html
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/elm-package.json
+  detection_source: example/elm-package.json
+  last_updated_by: Abadi Kurniawan
+  last_updated_on: 2016-11-16 06:49:18.000000000 Z
+- name: lukewestby/elm-string-interpolate
+  description: Inject values from a list into a template
+  package_url: http://package.elm-lang.org/lukewestby/elm-string-interpolate
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/gulp-elm/blob/master/example/elm/nested-elm/elm-package.json
+  detection_source: example/elm/nested-elm/elm-package.json
+  last_updated_by: Brian Dukes
+  last_updated_on: 2017-04-12 21:57:20.000000000 Z
